@@ -39,7 +39,8 @@ public class SuratMain09 {
                         while (!stack.isEmpty()) {
                             Surat09 srt = stack.pop();
                             String jenisIzinStr = srt.jenisIzin == 'S' ? "Sakit" : "Izin Keperluan Lain";
-                            System.out.println(srt.namaMahasiswa + " (" + srt.kelas + "), Jenis: " + jenisIzinStr + ", Durasi: " + srt.durasi + " hari.");
+                            System.out.println(srt.namaMahasiswa + " (" + srt.kelas + "), Jenis: " + jenisIzinStr + 
+                            ", Durasi: " + srt.durasi + " hari.");
                         }
                     }
                     break;
