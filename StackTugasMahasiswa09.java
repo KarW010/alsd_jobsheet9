@@ -54,6 +54,19 @@ public class StackTugasMahasiswa09 {
         }
     }
 
+    public Mahasiswa09 bottom() {
+        if (!isEmpty()) {
+            return stack[0];
+        } else {
+            System.out.println("Stack kosong! Tidak ada tugas.");
+            return null;
+        }
+    }
+    
+    public int count() {
+        return top + 1;
+    }
+
     public void print() {
         Mahasiswa09[] tempStack = new Mahasiswa09[top + 1];
         for (int i = 0; i <= top; i++) {
