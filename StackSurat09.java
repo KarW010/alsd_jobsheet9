@@ -50,7 +50,8 @@ public class StackSurat09 {
         for (int i = 0; i <= top; i++) {
             if (stack[i].namaMahasiswa.equalsIgnoreCase(nama)) {
                 found = true;
-                System.out.println("Surat ditemukan: ID " + stack[i].idSurat + ", Kelas " + stack[i].kelas + ", Jenis Izin: " + stack[i].jenisIzin + ", Durasi: " + stack[i].durasi + " hari");
+                System.out.println("Surat ditemukan: ID " + stack[i].idSurat + ", Kelas " + stack[i].kelas + 
+                ", Jenis Izin: " + stack[i].jenisIzin + ", Durasi: " + stack[i].durasi + " hari");
             }
         }
         if (!found) {
